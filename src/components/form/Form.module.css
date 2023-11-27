@@ -1,0 +1,64 @@
+.formSection {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 2rem;
+    max-width: 60rem;
+    margin: 5rem auto 0;
+
+    & h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        padding-block: 1.5rem;
+    }
+}
+
+.formComponent button {
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3rem;
+    flex: 1;
+}
+
+.row1 {
+    & input {
+        padding-block: 1.5rem;
+    }
+}
+
+.row2 {
+}
+
+.selectLabel {
+    display: block;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin-block: 1rem;
+
+    & select {
+        padding: 1rem 2rem;
+
+        width: 100%;
+    }
+}
+
+.textareaLabel {
+    font-size: 1.8rem;
+    line-height: 2;
+
+    & textarea {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        width: 100%;
+
+    }
+}
